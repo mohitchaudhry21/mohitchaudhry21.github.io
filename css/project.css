@@ -1,0 +1,200 @@
+
+.body1 {  background-image: linear-gradient(to bottom, #05668D,#FFFCF9);
+         max-height: 100%;
+        max-width: 100%;
+        background-repeat: no-repeat;
+}
+
+.body2 {  background-image: linear-gradient(to bottom, #028090,#FFFCF9);
+         max-height: 100%;
+        max-width: 100%;
+        background-repeat: no-repeat;
+}
+
+.body3 {  background-image: linear-gradient(to bottom, #00A896,#FFFCF9);
+         max-height: 100%;
+        max-width: 100%;
+        background-repeat: no-repeat;
+}
+
+.body4 {  background-image: linear-gradient(to bottom, #02C39A,#FFFCF9);
+         max-height: 100%;
+        max-width: 100%;
+        background-repeat: no-repeat;
+}
+
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: white;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+color:white;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: black;
+}
+
+.card-img-top {border: solid;
+border-color: black;
+border-width: thin;}
+
+.heading {
+        text-align: center;
+        font-size: 50px;
+}
+
+.card-body {background-size: contain;}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding-right: 8em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 3em;
+}
+
+.crow {
+    display: flex;
+}
+
+.citems {
+    width: 45%;
+}
+
+.cprice {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cquantity {
+    width: 35%;
+}
+
+.citemname {
+    color: #333;
+    margin-left: 1.5em;
+    font-size: 1.2em;
+}
+
+.citemimage {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+.cquantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+.total {
+    text-align: end;
+    margin-top: 10px;
+    padding-left: 60px;
+}
+
+.ctotalname {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    padding-right: 20px;
+}
+
+.totalprice {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
+
+.contact-form {
+    border-radius:1rem;
+    margin-left: 8%;
+    text-align:justify;
+    font-size: 30px;
+    margin-bottom: 5%;
+    width: 90%;
+}
+
+.labels {font-size: 25px;
+    vertical-align:middle;}
+
+#comment { border-radius:1rem;
+    vertical-align: middle;
+    margin-left: 3%;
+}
+
+.contact-form .submitbtn {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 10%;
+}
+
+#name {border-radius:1rem;
+    margin-left: 8%;
+    font-size: 30px;
+}
+
+#email {border-radius:1rem;
+    margin-left: 8%;
+    font-size: 30px;
+}
+
+#comment {border-radius:1rem;
+    font-size: 30px;
+}
